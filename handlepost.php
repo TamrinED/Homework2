@@ -7,7 +7,7 @@
   Welcome <?php echo $_POST["name"]; ?><br>
 Your email address is: <?php echo $_POST["email"]; ?>
 
-<h2> <?php ThankYouMessage(); ?> <h2/>
+<h2> <?php ThankYouMessage(); ?> </h2>
 
   <a class"btn btn-primary" href="page2.html" role="button">Page 2</a>
 <?php require_once("footer.php"); ?>
