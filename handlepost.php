@@ -2,6 +2,7 @@
 
 
   <h1>Post Response</h1>
+<h2><?php require_once("ThankYouMessage.php"); ?>
   Welcome <?php echo $_POST["name"]; ?><br>
 Your email address is: <?php echo $_POST["email"]; ?>
 
