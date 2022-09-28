@@ -1,7 +1,7 @@
 <?php
 require_once("header.php"); ?>
 <body>
-  <h1> <?php require_once("ThankYouMessage"); ?> </h1>
+  <?php require_once("ThankYouMessage"); ?>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">MIS 4013</h5>
