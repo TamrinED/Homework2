@@ -1,3 +1,4 @@
+<?php require_once("ThankYouMessage.php"); ?>
 <?php require_once("header.php"); ?>
 
 
@@ -6,9 +7,8 @@
   Welcome <?php echo $_POST["name"]; ?><br>
 Your email address is: <?php echo $_POST["email"]; ?>
 
-<?php require_once("ThankYouMessage.php"); ?>
+<h2> <?php ThankYouMessage(); ?> <h2/>
 
-  
   <a class"btn btn-primary" href="page2.html" role="button">Page 2</a>
 <?php require_once("footer.php"); ?>
   
